@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-03-29" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.0" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-03-24" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.0" locale="fr_FR">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Nom" width="57" order="0"/>
         <field id="tpd4" name="Date de début" width="21" order="1"/>
         <field id="tpd5" name="Date de fin" width="21" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="56" order="0"/>
-        <field id="1" name="Rôle par défaut" width="43" order="1"/>
+        <field id="0" name="Nom" width="50" order="0"/>
+        <field id="1" name="Rôle par défaut" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -37,8 +37,16 @@
         </taskproperties>
         <task id="0" name="Création du planning de gantI" meeting="false" start="2025-03-31" duration="1" complete="0" expand="true"/>
         <task id="1" name="Montage de la maquette en bois" meeting="false" start="2025-03-31" duration="1" complete="0" expand="true"/>
-        <task id="2" name="Modélistaion de la pièce manquante" meeting="false" start="2025-03-31" duration="1" complete="0" expand="true"/>
-        <task id="3" name="Assemblage Finale de la maquète" meeting="false" start="2025-03-31" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Modélistaion de la pièce manquante" color="#8cb6ce" meeting="false" start="2025-04-02" duration="3" complete="0" expand="true"/>
+        <task id="3" name="Assemblage Finale de la maquète" color="#8cb6ce" meeting="false" start="2025-04-04" duration="1" complete="0" expand="true"/>
+        <task id="8" name="Choisir materiel" meeting="false" start="2025-04-03" duration="1" complete="0" expand="true"/>
+        <task id="16" name="Programmer la maison pour relever et afficher la température et le dégré d'humidité" color="#8cb6ce" meeting="false" start="2025-04-07" duration="5" complete="0" expand="true"/>
+        <task id="12" name="Programmela maioson pour ouvrir et fermez la porte du garage par voix vocal" color="#8cb6ce" meeting="false" start="2025-04-07" duration="5" complete="0" expand="true"/>
+        <task id="14" name="Programme l'ouverture et la fermeture à distance de la porte d'entrée" color="#8cb6ce" meeting="false" start="2025-04-07" duration="5" complete="0" expand="true"/>
+        <task id="15" name="Programmer une alarme extérieure" meeting="false" start="2025-04-07" duration="5" complete="0" expand="true"/>
+        <task id="9" name="Écrire le code Arduino" color="#8cb6ce" meeting="false" start="2025-04-07" duration="5" complete="0" expand="true"/>
+        <task id="10" name="Prévoir la fixation des composant chosis" color="#8cb6ce" meeting="false" start="2025-04-28" duration="4" complete="0" expand="true"/>
+        <task id="11" name="Test de la solution technique et valider le prototype" color="#8cb6ce" meeting="false" start="2025-05-02" duration="3" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
